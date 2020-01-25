@@ -1,0 +1,41 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+$myblue: #4b79c4;
+$myblack: #363738;
+$mydarkblue: #46618c;
+$mycoolgreen: #3CBC8D;
+
+h1 {
+  color: $myblack;
+  font-weight: bold;
+  font-size: 34px;
+}
+
+p {
+  color: $myblue;
+  font-size: 28px;
+}
+
+a {
+  color: $myblue;
+  text-decoration: none;
+}
+
+a:hover {
+  color: $mydarkblue;
+  transition: 0.5s;
+}
+
+a:visited {
+  font-style: oblique;
+}
+
+input[type=submit] {
+  background-color: $mycoolgreen;
+  color: white;
+  border: $mycoolgreen;
+  height: 25px;
+  width: 100px;
+}
+
